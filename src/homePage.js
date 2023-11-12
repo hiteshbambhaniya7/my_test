@@ -1,3 +1,5 @@
+import Navigation from "./navigation";
+
 export default function Home(){
-    return( <h1>Hello World! This is test Page</h1>)
+    return( <><Navigation /><h1>Hello World! This is test Page</h1></>)
 }
